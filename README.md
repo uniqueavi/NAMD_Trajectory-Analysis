@@ -1,1 +1,2 @@
 # NAMD_Trajectory-Analysis
+For generating the psf file we needed some topology files which we imported (top_all27_protein_lipid_na.inp). We load the instruction file and split the chains and create the chains. Then the psf file is ready. It will create a new pdf and psf file. The new pdb file (5eu1_autopsf.pdb) is bigger than the size of the original pdb file (5eu1.pdb) because the new one is having H in it.
